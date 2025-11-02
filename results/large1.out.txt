@@ -1,0 +1,72 @@
+
+==========================================
+Running dataset: large1.json
+==========================================
+ Source in JSON = 0
+
+=== Strongly Connected Components ===
+Component 0: [10, 9]
+Component 1: [14, 13, 12]
+Component 2: [31]
+Component 3: [30]
+Component 4: [29]
+Component 5: [19, 18]
+Component 6: [24, 23, 22]
+Component 7: [26]
+Component 8: [28]
+Component 9: [27]
+Component 10: [25]
+Component 11: [21]
+Component 12: [20]
+Component 13: [17]
+Component 14: [16]
+Component 15: [15]
+Component 16: [11]
+Component 17: [8]
+Component 18: [7]
+Component 19: [6]
+Component 20: [5]
+Component 21: [4]
+Component 22: [3, 2]
+Component 23: [1]
+Component 24: [0]
+ Source belongs to SCC component = 24
+
+=== Topological Order (Condensed DAG) ===
+Topo Order: [24, 23, 22, 21, 20, 19, 18, 17, 0, 16, 1, 15, 14, 13, 5, 12, 11, 6, 10, 7, 9, 8, 4, 3, 2]
+
+=== Shortest & Longest Paths ===
+[INFO] Using source component: 24
+[INFO] Using source component: 24
+=== Shortest Distances from Component 24 ===
+Node 0: 22.0
+Node 1: 24.0
+Node 2: 25.0
+Node 3: 23.0
+Node 4: 20.0
+Node 5: 31.0
+Node 6: 38.0
+Node 7: 41.0
+Node 8: 18.0
+Node 9: 15.0
+Node 10: 38.0
+Node 11: 36.0
+Node 12: 33.0
+Node 13: 29.0
+Node 14: 26.0
+Node 15: 24.0
+Node 16: 21.0
+Node 17: 19.0
+Node 18: 17.0
+Node 19: 13.0
+Node 20: 10.0
+Node 21: 8.0
+Node 22: 5.0
+Node 23: 2.0
+Node 24: 0.0
+
+=== Critical Path Summary ===
+Start: 24
+End: 2
+Length: 50.0
+

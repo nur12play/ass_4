@@ -1,0 +1,33 @@
+==========================================
+ Running dataset: tasks.json
+==========================================
+ Source in JSON = 4
+
+=== Strongly Connected Components ===
+Component 0: [3, 2, 1]
+Component 1: [0]
+Component 2: [7]
+Component 3: [6]
+Component 4: [5]
+Component 5: [4]
+ Source belongs to SCC component = 5
+
+=== Topological Order (Condensed DAG) ===
+Topo Order: [1, 5, 0, 4, 3, 2]
+
+=== Shortest & Longest Paths ===
+[INFO] Using source component: 5
+[INFO] Using source component: 5
+=== Shortest Distances from Component 5 ===
+Node 0: ∞
+Node 1: ∞
+Node 2: 8.0
+Node 3: 7.0
+Node 4: 2.0
+Node 5: 0.0
+
+=== Critical Path Summary ===
+Start: 5
+End: 2
+Length: 8.0
+

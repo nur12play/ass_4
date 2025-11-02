@@ -1,0 +1,45 @@
+==========================================
+ Running dataset: medium3.json
+==========================================
+ Source in JSON = 0
+
+=== Strongly Connected Components ===
+Component 0: [13, 12, 11]
+Component 1: [14]
+Component 2: [6]
+Component 3: [5]
+Component 4: [4]
+Component 5: [3]
+Component 6: [10]
+Component 7: [9, 8]
+Component 8: [7]
+Component 9: [2]
+Component 10: [1]
+Component 11: [0]
+ Source belongs to SCC component = 11
+
+=== Topological Order (Condensed DAG) ===
+Topo Order: [11, 10, 9, 5, 8, 4, 7, 3, 6, 2, 0, 1]
+
+=== Shortest & Longest Paths ===
+[INFO] Using source component: 11
+[INFO] Using source component: 11
+=== Shortest Distances from Component 11 ===
+Node 0: 16.0
+Node 1: 14.0
+Node 2: 13.0
+Node 3: 11.0
+Node 4: 8.0
+Node 5: 6.0
+Node 6: 11.0
+Node 7: 9.0
+Node 8: 7.0
+Node 9: 4.0
+Node 10: 2.0
+Node 11: 0.0
+
+=== Critical Path Summary ===
+Start: 11
+End: 1
+Length: 17.0
+
